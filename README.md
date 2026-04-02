@@ -145,7 +145,7 @@ server.js
 1. Clone repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/finance-dashboard-backend.git
+git clone git clone https://github.com/SaiSruthi4088/finance-dashboard-backend.git
 ```
 
 2. Install dependencies
