@@ -145,7 +145,7 @@ server.js
 1. Clone repository
 
 ```
-git clone git clone https://github.com/SaiSruthi4088/finance-dashboard-backend.git
+git clone https://github.com/SaiSruthi4088/finance-dashboard-backend.git
 ```
 
 2. Install dependencies
@@ -169,6 +169,17 @@ node server.js
 ```
 
 ---
+
+## Assumptions
+
+While implementing this backend system, the following assumptions were made:
+
+- JWT authentication is used for simplicity and stateless authentication.
+- MongoDB is used as the primary database for storing users and financial records.
+- Role-based access control is implemented using middleware to restrict API access.
+- Each financial record is associated with a user through the `createdBy` field.
+- The backend is designed primarily to serve a frontend dashboard application.
+
 
 ## Conclusion
 
